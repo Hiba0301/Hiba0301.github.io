@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Hiba Chaari | Software Engineering Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio of Hiba Chaari, final-year Software Engineering student focused on full-stack development, AI automations, cloud-native engineering and AI-assisted software development."
+  />
+  <meta name="theme-color" content="#2b57e0" />
+  <meta property="og:title" content="Hiba Chaari | Software Engineering Portfolio" />
+  <meta
+    property="og:description"
+    content="Software Engineering portfolio featuring full-stack products, AI automations, cloud architecture and engineering experience."
+  />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png" />
+  <link rel="shortcut icon" href="assets/img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/style.css?v=4" />
+</head>
+<body>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">HC</span>
+        <span class="brand-text">Hiba<span>.</span></span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <!-- TODO: add your actual PDF files to assets/cv/ and keep these filenames, or update these links -->
+          <a class="mini-btn" href="assets/cv/CV_FR.pdf" target="_blank" rel="noreferrer">CV FR</a>
+          <a class="mini-btn" href="assets/cv/CV_EN.pdf" target="_blank" rel="noreferrer">CV EN</a>
+
+          <div class="social-links" aria-label="Social links">
+            <!-- TODO: replace these 3 contact links with your real GitHub, LinkedIn and email -->
+            <a href="https://github.com/Hiba0301" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/hiba-chaari-793701321/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:hibachaari2004@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-decoration hero-decoration-one" aria-hidden="true"></div>
+      <div class="hero-decoration hero-decoration-two" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal reveal-left">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Hiba Chaari</h1>
+          <h2>Software Engineer <span>|</span> Full-Stack, Cloud & AI Enthusiast</h2>
+          <p class="hero-description">
+            Final-year Software Engineering student focused on building scalable, reliable software across frontend, backend and cloud environments. Experienced with REST APIs, distributed data pipelines, AWS, containerized systems and AI-driven applications, with a strong interest in AI automation, LLMs and intelligent software engineering.
+          </p>
+
+          <div class="availability-pill">
+            <i class="fa-solid fa-briefcase"></i>
+            Seeking a 6-month Software Engineering internship · February 2027 
+          </div>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">
+              Discover My Projects <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero-proof" aria-label="Focus areas">
+            <span><i class="fa-solid fa-code"></i> Full-Stack</span>
+            <span><i class="fa-solid fa-robot"></i> AI Enthusiast</span>
+            <span><i class="fa-solid fa-cloud"></i> Cloud-Native</span>
+            <span><i class="fa-solid fa-brain"></i> AI-Assisted Engineering</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-right">
+          <div class="profile-shell">
+            <div class="profile-ring"></div>
+            <!-- TODO: replace profile-placeholder.svg with your real professional photo -->
+            <img src="assets/img/profile-image.jpeg" alt="Hiba Chaari profile placeholder" class="profile-image" />
+            <div class="floating-card floating-card-top">
+              <i class="fa-brands fa-aws"></i>
+              <span>AWS Certified</span>
+            </div>
+            <div class="floating-card floating-card-bottom">
+              <i class="fa-solid fa-rocket"></i>
+              <span>Technical Co-Founder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="Scroll to the About section">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Get to know me</p>
+          <h2>About Me</h2>
+          <p>
+            I combine software engineering fundamentals with hands-on product development. As Technical Co-Founder
+            of Demarky.ai and a former Project Manager at Optima Junior Enterprise, I have worked across implementation,
+            architecture, delivery and teamwork while continuously strengthening my skills in algorithms and software design.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon">🏗️</div>
+            <h3>Engineering First</h3>
+            <p>I care about clean architecture, maintainability, reliability and software that can evolve over time.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">🌐</div>
+            <h3>Full-Stack Builder</h3>
+            <p>I enjoy connecting polished user interfaces to robust APIs, databases and backend services.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">☁️</div>
+            <h3>Cloud & Distributed</h3>
+            <p>I explore cloud-native architecture, containerization, Kafka and scalable distributed workflows.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">🤝</div>
+            <h3>Product & Team Mindset</h3>
+            <p>Technical leadership and project-management experience help me connect engineering decisions to real user needs.</p>
+          </article>
+        </div>
+
+        <div class="subsection-heading reveal">
+          <p class="eyebrow">Academic path</p>
+          <h3>Education</h3>
+        </div>
+
+        <div class="timeline timeline-education">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span><i class="fa-regular fa-calendar"></i> 2024 — 2027</span>
+                <span class="timeline-company">Faculté des Sciences de Tunis</span>
+              </div>
+              <h3>Engineering Degree in Software Engineering</h3>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"><i class="fa-solid fa-square-root-variable"></i></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span><i class="fa-regular fa-calendar"></i> 2022 — 2024</span>
+                <span class="timeline-company">Faculté des Sciences de Tunis</span>
+              </div>
+              <h3>Integrated Preparatory Cycle</h3>
+              <p>Mathematics &amp; Computer Science</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"><i class="fa-solid fa-medal"></i></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span><i class="fa-regular fa-calendar"></i> 2021 — 2022</span>
+                <span class="timeline-company">Lycée Manzah 6</span>
+              </div>
+              <h3>Baccalauréat in Mathematics</h3>
+              <p>High Honors</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical toolkit</p>
+          <h2>Skills</h2>
+          <p>Technologies and engineering practices I use across full-stack products, distributed systems and cloud environments.</p>
+        </div>
+
+        <div class="skills-layout">
+          <article class="skill-group reveal">
+            <h3><i class="fa-solid fa-terminal"></i> Programming Languages</h3>
+            <div class="skill-grid">
+              <div class="skill-item"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+              <div class="skill-item"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+              <div class="skill-item"><i class="devicon-typescript-plain colored"></i><span>TypeScript</span></div>
+              <div class="skill-item"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+            </div>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3><i class="fa-solid fa-window-maximize"></i> Front-End & Web</h3>
+            <div class="skill-grid">
+              <div class="skill-item"><i class="devicon-react-original colored"></i><span>React.js</span></div>
+              <div class="skill-item"><i class="devicon-nextjs-plain"></i><span>Next.js</span></div>
+              <div class="skill-item"><i class="devicon-angularjs-plain colored"></i><span>Angular</span></div>
+              <div class="skill-item"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+              <div class="skill-item"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+              <div class="skill-item"><i class="devicon-vitejs-plain colored"></i><span>Vite</span></div>
+            </div>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3><i class="fa-solid fa-server"></i> Back-End & Distributed Systems</h3>
+            <div class="skill-grid">
+              <div class="skill-item"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+              <div class="skill-item"><i class="devicon-spring-original colored"></i><span>Spring Boot</span></div>
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-plug"></i><span>REST APIs</span></div>
+              <div class="skill-item"><i class="devicon-apachekafka-original colored"></i><span>Kafka</span></div>
+            </div>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3><i class="fa-solid fa-cloud"></i> Cloud & DevOps</h3>
+            <div class="skill-grid">
+              <div class="skill-item"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></div>
+              <div class="skill-item"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
+              <div class="skill-item"><i class="devicon-linux-plain"></i><span>Linux</span></div>
+              <div class="skill-item"><i class="devicon-githubactions-plain colored"></i><span>CI/CD</span></div>
+              <div class="skill-item"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+            </div>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3><i class="fa-solid fa-database"></i> Databases & Data Services</h3>
+            <div class="skill-grid">
+              <div class="skill-item"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
+              <div class="skill-item"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-database"></i><span>SQL / NoSQL</span></div>
+              <div class="skill-item"><i class="devicon-supabase-plain colored"></i><span>Supabase</span></div>
+            </div>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3><i class="fa-solid fa-code-branch"></i> Software Engineering</h3>
+            <div class="skill-grid">
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-sitemap"></i><span>Software Architecture</span></div>
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-cubes-stacked"></i><span>OOP</span></div>
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-diagram-project"></i><span>Algorithms & Data Structures</span></div>
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-list-check"></i><span>AI-Assisted Debugging</span></div>
+            </div>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3><i class="fa-solid fa-brain"></i> Artificial Intelligence</h3>
+            <div class="skill-grid">
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-chart-line"></i><span>Machine Learning</span></div>
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-network-wired"></i><span>Deep Learning</span></div>
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-message"></i><span>LLM Fundamentals</span></div>
+              <div class="skill-item skill-item-text"><i class="fa-solid fa-robot"></i><span>AI Automation</span></div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="language-strip reveal" aria-label="Languages">
+          <strong>Languages</strong>
+          <span>Arabic</span>
+          <span>French</span>
+          <span>English</span>
+          <span>Turkish</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Credentials</p>
+          <h2>Certifications</h2>
+          <p>Verified industry certifications and specialized training across cloud and artificial intelligence.</p>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card reveal">
+            <span class="cert-status is-certified"><i class="fa-solid fa-circle-check"></i> Certified</span>
+            <div class="cert-badge">
+              <img src="assets/img/badges/aws-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner badge" loading="lazy" />
+            </div>
+            <h3>AWS Certified Cloud Practitioner</h3>
+            <p class="cert-issuer">Amazon Web Services</p>
+            <span class="cert-level">Foundational · CLF-C02</span>
+          </article>
+
+          <article class="cert-card reveal">
+            <span class="cert-status is-progress"><i class="fa-solid fa-hourglass-half"></i> In preparation</span>
+            <div class="cert-badge">
+              <img src="assets/img/badges/aws-saa.png" alt="AWS Certified Solutions Architect – Associate badge" loading="lazy" />
+            </div>
+            <h3>AWS Certified Solutions Architect – Associate</h3>
+            <p class="cert-issuer">Amazon Web Services</p>
+            <span class="cert-level">Associate · SAA-C03</span>
+          </article>
+
+          <article class="cert-card reveal">
+            <span class="cert-status is-certified"><i class="fa-solid fa-circle-check"></i> Certified</span>
+            <div class="cert-badge">
+              <img src="assets/img/badges/nvidia-dli.svg" alt="NVIDIA Deep Learning Institute — Fundamentals of Deep Learning" loading="lazy" />
+            </div>
+            <h3>Fundamentals of Deep Learning</h3>
+            <p class="cert-issuer">NVIDIA Deep Learning Institute</p>
+            <span class="cert-level">Certificate of Competency</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects</h2>
+          <p>Products and engineering projects spanning SaaS development, distributed systems, cloud architecture and AI.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <button
+              class="project-image-button"
+              type="button"
+              data-modal-image="assets/img/project-demarky.png"
+              data-modal-alt="Demarky.ai project preview"
+              aria-label="Open Demarky.ai preview"
+            >
+              <img src="assets/img/project-demarky.png" alt="Demarky.ai visual" />
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i> Enlarge</span>
+            </button>
+            <div class="project-content">
+              <span class="project-number">Featured Project 01</span>
+              <h3>Demarky.ai</h3>
+              <p>
+                AI-powered SaaS platform that automates website creation from architecture to deployment,
+                developed as a production-facing product in a fast-paced startup environment.
+              </p>
+              <h4>Key Features</h4>
+              <ul>
+                <li>Full-stack product features built with React</li>
+                <li>REST API integration across backend services</li>
+                <li>Supabase data and backend service integration</li>
+                <li>AI capabilities integrated into core product workflows</li>
+              </ul>
+              <div class="tag-list">
+                <span>React</span><span>Supabase</span><span>REST APIs</span><span>AI</span><span>SaaS</span>
+              </div>
+              <a class="project-live" href="https://demarky.ai" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> demarky.ai
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-carousel" data-carousel aria-roledescription="carousel" aria-label="BriefFlow product walkthrough" tabindex="0">
+              <div class="carousel-viewport">
+                <div class="carousel-track">
+                  <figure class="carousel-slide">
+                    <img src="assets/img/briefflow-slides/slide-01.jpg" loading="lazy"
+                      alt="BriefFlow landing page — describe your project and get a proposal in seconds"
+                      data-caption="Client intake — describe your project, get a proposal in seconds"
+                      data-modal-image="assets/img/briefflow-slides/slide-01.jpg"
+                      data-modal-alt="BriefFlow client intake landing page" />
+                  </figure>
+                  <figure class="carousel-slide">
+                    <img src="assets/img/briefflow-slides/slide-02.jpg" loading="lazy"
+                      alt="AI-drafted proposal with scope, phased timeline and price estimate"
+                      data-caption="AI-drafted proposal: scope, phased timeline &amp; price estimate"
+                      data-modal-image="assets/img/briefflow-slides/slide-02.jpg"
+                      data-modal-alt="BriefFlow AI-generated draft proposal" />
+                  </figure>
+                  <figure class="carousel-slide">
+                    <img src="assets/img/briefflow-slides/slide-03.jpg" loading="lazy"
+                      alt="Automated client confirmation email"
+                      data-caption="Automated client confirmation email"
+                      data-modal-image="assets/img/briefflow-slides/slide-03.jpg"
+                      data-modal-alt="BriefFlow automated client confirmation email" />
+                  </figure>
+                  <figure class="carousel-slide">
+                    <img src="assets/img/briefflow-slides/slide-04.jpg" loading="lazy"
+                      alt="n8n automation workflow: webhook, LLM generation, parsing, save and notify"
+                      data-caption="Automation pipeline — n8n: webhook → LLM (Ollama) → parse → notify"
+                      data-modal-image="assets/img/briefflow-slides/slide-04.jpg"
+                      data-modal-alt="BriefFlow n8n automation workflow" />
+                  </figure>
+                  <figure class="carousel-slide">
+                    <img src="assets/img/briefflow-slides/slide-05.jpg" loading="lazy"
+                      alt="Admin dashboard with prioritized, scored lead pipeline"
+                      data-caption="Admin dashboard — prioritized, scored lead pipeline"
+                      data-modal-image="assets/img/briefflow-slides/slide-05.jpg"
+                      data-modal-alt="BriefFlow admin leads dashboard" />
+                  </figure>
+                  <figure class="carousel-slide">
+                    <img src="assets/img/briefflow-slides/slide-06.jpg" loading="lazy"
+                      alt="High-priority lead alert email sent to the admin"
+                      data-caption="High-priority lead alert email to the admin"
+                      data-modal-image="assets/img/briefflow-slides/slide-06.jpg"
+                      data-modal-alt="BriefFlow high-priority lead alert email" />
+                  </figure>
+                </div>
+                <button class="carousel-btn carousel-prev" type="button" aria-label="Previous screenshot"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="carousel-btn carousel-next" type="button" aria-label="Next screenshot"><i class="fa-solid fa-chevron-right"></i></button>
+                <span class="carousel-counter"><span class="carousel-index">1</span>/6</span>
+                <div class="carousel-dots" role="tablist" aria-label="Choose screenshot"></div>
+              </div>
+              <p class="carousel-caption">Client intake — describe your project, get a proposal in seconds</p>
+            </div>
+            <div class="project-content">
+              <span class="project-number">Featured Project 02</span>
+              <h3>BriefFlow</h3>
+              <p>
+                AI-powered client intake &amp; proposal generator. A client fills a short form (project type,
+                budget, description) and within minutes receives an auto-generated project brief, proposal
+                draft and estimated timeline — while the admin gets a clean, priority-scored lead in a dashboard.
+              </p>
+              <h4>Key Features</h4>
+              <ul>
+                <li>End-to-end automation pipeline: form → n8n webhook → local LLM (Ollama)</li>
+                <li>AI-generated structured brief, proposal &amp; timeline with a priority score</li>
+                <li>Admin dashboard (JWT) to review/edit AI drafts and sort leads by priority</li>
+                <li>Instant client confirmation email + Slack/Telegram alert on high-priority leads</li>
+              </ul>
+              <div class="tag-list">
+                <span>React</span><span>Vite</span><span>n8n</span><span>Ollama</span><span>Express</span><span>PostgreSQL</span><span>Prisma</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <video
+                class="project-video"
+                controls
+                preload="none"
+                playsinline
+                poster="assets/video/pipeline-poster.jpg"
+                aria-label="Real-time Kafka data pipeline demo video"
+              >
+                <source src="assets/video/pipeline-demo.mp4" type="video/mp4" />
+                Your browser does not support embedded video. You can
+                <a href="assets/video/pipeline-demo.mp4">download the demo</a> instead.
+              </video>
+              <span class="media-badge"><i class="fa-solid fa-circle-play"></i> Live demo</span>
+            </div>
+            <div class="project-content">
+              <span class="project-number">Featured Project 03</span>
+              <h3>Real-Time Data Pipeline</h3>
+              <p>
+                Distributed streaming pipeline built to process real-time data across multiple services,
+                with containerized components and a web interface for the processed stream.
+              </p>
+              <h4>Key Features</h4>
+              <ul>
+                <li>Streaming architecture with Apache Kafka</li>
+                <li>Multi-service processing using Python and Node.js</li>
+                <li>Dockerized development and runtime environment</li>
+                <li>Next.js interface for real-time visibility</li>
+              </ul>
+              <div class="tag-list">
+                <span>Python</span><span>Node.js</span><span>Kafka</span><span>Docker</span><span>Next.js</span>
+              </div>
+              <a class="project-github" href="https://github.com/Hiba0301/real-time-data-pipeline" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <button
+              class="project-image-button"
+              type="button"
+              data-modal-image="assets/img/project-skillnft.png"
+              data-modal-alt="SkillNFT — blockchain skill-credential platform admin interface"
+              aria-label="Open SkillNFT preview"
+            >
+              <img src="assets/img/project-skillnft.png" alt="SkillNFT blockchain skill-credential platform interface" />
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i> Enlarge</span>
+            </button>
+            <div class="project-content">
+              <span class="project-number">Featured Project 04 · Blockchain</span>
+              <h3>SkillNFT</h3>
+              <p>
+                Blockchain platform for skill micro-certifications. Admins mint NFT certificates
+                (ERC-721) for a student's skills and assign them to the student's wallet; students
+                connect MetaMask to view a verified, on-chain portfolio of their credentials.
+              </p>
+              <h4>Key Features</h4>
+              <ul>
+                <li>Mint &amp; assign NFT skill certificates on an Ethereum-compatible chain</li>
+                <li>Wallet-connected frontend with role-based access (Admin / Student)</li>
+                <li>Students view a verified on-chain credential gallery via MetaMask</li>
+                <li>Solidity smart contract deployed &amp; tested on a local Anvil (Foundry) node</li>
+              </ul>
+              <div class="tag-list">
+                <span>Solidity</span><span>Ethereum</span><span>Next.js</span><span>React</span><span>ethers.js</span><span>Foundry</span><span>MetaMask</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="project-doc-link"
+                  data-slides="assets/img/skillnft-slides/slide-"
+                  data-slide-count="24"
+                  aria-haspopup="dialog"
+                >
+                  <i class="fa-solid fa-images"></i> View presentation · 24 slides
+                </button>
+                <a class="project-github" href="https://github.com/Hiba0301/skillnft" target="_blank" rel="noreferrer">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a class="project-doc-secondary" href="assets/docs/skillnft-presentation.pdf" target="_blank" rel="noreferrer" aria-label="Open the SkillNFT presentation as PDF">
+                  <i class="fa-solid fa-file-pdf"></i> PDF
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <button
+              class="project-image-button"
+              type="button"
+              data-modal-image="assets/img/project-exam.png"
+              data-modal-alt="Exam Planner exam calendar generation interface"
+              aria-label="Open Exam Planner preview"
+            >
+              <img src="assets/img/project-exam.png" alt="Exam Planner exam-calendar generation interface" class="img-top" />
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i> Enlarge</span>
+            </button>
+            <div class="project-content">
+              <span class="project-number">Project 05</span>
+              <h3>Exam Planner</h3>
+              <p>
+                Intelligent platform designed to automate exam scheduling through a full-stack architecture,
+                combining an Angular interface, Spring Boot services and PostgreSQL persistence.
+              </p>
+              <h4>Key Features</h4>
+              <ul>
+                <li>Automated exam scheduling workflow</li>
+                <li>Structured frontend/backend separation</li>
+                <li>Persistent relational data model</li>
+                <li>REST-based application integration</li>
+              </ul>
+              <div class="tag-list">
+                <span>Angular</span><span>Spring Boot</span><span>PostgreSQL</span>
+              </div>
+              <!-- TODO: add the GitHub repository URL if public -->
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <button
+              class="project-image-button"
+              type="button"
+              data-modal-image="assets/img/project-aws.png"
+              data-modal-alt="AWS cloud architecture project preview"
+              aria-label="Open AWS architecture preview"
+            >
+              <img src="assets/img/project-aws.png" alt="AWS cloud architecture visual" />
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i> Enlarge</span>
+            </button>
+            <div class="project-content">
+              <span class="project-number">Project 06</span>
+              <h3>Cloud Architecture on AWS</h3>
+              <p>
+                Scalable and secure cloud-native architecture designed around AWS networking, compute,
+                container and managed database services while following core AWS best practices.
+              </p>
+              <h4>Key Features</h4>
+              <ul>
+                <li>Network segmentation with Amazon VPC</li>
+                <li>Compute with EC2 and container deployment with ECS</li>
+                <li>Managed relational database layer using RDS</li>
+                <li>Scalability and security considerations by design</li>
+              </ul>
+              <div class="tag-list">
+                <span>AWS VPC</span><span>EC2</span><span>ECS</span><span>RDS</span>
+              </div>
+              <a class="project-github" href="https://github.com/Hiba0301/projet-aws-3tiers" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <button
+              class="project-image-button"
+              type="button"
+              data-modal-image="assets/img/project-plant-app.png"
+              data-modal-alt="Plant disease detection web app — MobileNetV2 and SVM predictions"
+              aria-label="Open plant disease detection app preview"
+            >
+              <img src="assets/img/project-plant-app.png" alt="Plant disease detection web app interface with MobileNetV2 and SVM predictions" />
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i> Enlarge</span>
+            </button>
+            <div class="project-content">
+              <span class="project-number">Project 07</span>
+              <h3>Plant Disease Classification</h3>
+              <p>
+                Image-classification project for automatic plant disease detection, exploring machine learning
+                and deep learning approaches for computer-vision based diagnosis.
+              </p>
+              <h4>Key Features</h4>
+              <ul>
+                <li>Image classification pipeline</li>
+                <li>Machine learning and deep learning experimentation</li>
+                <li>Model training and evaluation workflow</li>
+                <li>Applied AI for an agricultural use case</li>
+              </ul>
+              <div class="tag-list">
+                <span>Python</span><span>Machine Learning</span><span>Deep Learning</span><span>Computer Vision</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="project-doc-link"
+                  data-slides="assets/img/plant-slides/slide-"
+                  data-slide-count="16"
+                  aria-haspopup="dialog"
+                >
+                  <i class="fa-solid fa-images"></i> View presentation · 16 slides
+                </button>
+                <a
+                  class="project-doc-secondary"
+                  href="assets/docs/tomato-leaf-disease-presentation.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Download the presentation as PDF"
+                >
+                  <i class="fa-solid fa-file-pdf"></i> PDF
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="more-projects reveal">
+          <article>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <div>
+              <h3>Movie Mobile App</h3>
+              <p>Flutter + Firebase application with authentication, favorites and user recommendations.</p>
+            </div>
+          </article>
+          <article>
+            <i class="fa-solid fa-code"></i>
+            <div>
+              <h3>Competitive Programming</h3>
+              <p>Algorithmic problem solving involving data structures, graphs, optimization and computational thinking.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Career journey</p>
+          <h2>Experience</h2>
+          <p>Engineering, startup and project-management experiences that shaped how I build and deliver software.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span><i class="fa-regular fa-calendar"></i> AUG 2025 — PRESENT</span>
+                <span class="timeline-company">Demarky.ai</span>
+              </div>
+              <h3>Technical Co-Founder & Software Engineer</h3>
+              <p>
+                Designing and developing an AI-powered SaaS platform that automates website creation from architecture
+                to deployment while contributing to product architecture, code quality and technical direction.
+              </p>
+              <h4>Technologies Used</h4>
+              <div class="tag-list">
+                <span>React</span><span>Supabase</span><span>REST APIs</span><span>AI</span><span>Git</span>
+              </div>
+              <h4>Achievements</h4>
+              <ul>
+                <li>Built full-stack features and integrated backend services.</li>
+                <li>Contributed to scalable software architecture and production-facing technical decisions.</li>
+                <li>Integrated AI technologies into core product features.</li>
+                <li>Worked on performance, maintainability and continuous product evolution.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span><i class="fa-regular fa-calendar"></i> JUN 2026 — JUL 2026</span>
+                <span class="timeline-company">Sellmax</span>
+              </div>
+              <h3>Software Engineering Intern</h3>
+              <p>
+                Designed and developed an online booking system integrated into the company's web platform,
+                covering data modeling, user-facing flows, host management and serverless backend logic.
+              </p>
+              <h4>Technologies Used</h4>
+              <div class="tag-list">
+                <span>Supabase</span><span>Edge Functions</span><span>REST APIs</span><span>Web</span>
+              </div>
+              <h4>Achievements</h4>
+              <ul>
+                <li>Built the client-facing booking widget and host-side availability management.</li>
+                <li>Implemented booking list and calendar dashboard views.</li>
+                <li>Developed serverless functions for availability, booking creation, cancellation and rescheduling.</li>
+                <li>Integrated automated email notifications into booking workflows.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span><i class="fa-regular fa-calendar"></i> JUN 2025 — JUL 2025</span>
+                <span class="timeline-company">Central Bank of Tunisia</span>
+              </div>
+              <h3>Software Engineering Intern</h3>
+              <p>
+                Developed GestioPro, a strategic project-management platform, and contributed to a system designed
+                to handle real production data while improving software architecture and reliability.
+              </p>
+              <h4>Technologies Used</h4>
+              <div class="tag-list">
+                <span>Next.js</span><span>Spring Boot</span><span>SQL</span><span>REST APIs</span>
+              </div>
+              <h4>Achievements</h4>
+              <ul>
+                <li>Built frontend and backend application features.</li>
+                <li>Designed and integrated REST API endpoints.</li>
+                <li>Contributed to architecture and reliability improvements.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span><i class="fa-regular fa-calendar"></i> 2024 — 2025</span>
+                <span class="timeline-company">Optima Junior Enterprise</span>
+              </div>
+              <h3>Project Manager</h3>
+              <p>
+                Managed IT projects and coordinated cross-functional teams, combining technical understanding
+                with client communication, planning and delivery follow-up.
+              </p>
+              <h4>Focus Areas</h4>
+              <div class="tag-list">
+                <span>Project Management</span><span>Leadership</span><span>Client Follow-up</span><span>Delivery</span>
+              </div>
+              <h4>Achievements</h4>
+              <ul>
+                <li>Coordinated project teams and delivery milestones.</li>
+                <li>Managed client follow-up and communication.</li>
+                <li>Strengthened leadership and cross-functional collaboration skills.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span><i class="fa-regular fa-calendar"></i> JUN 2023</span>
+                <span class="timeline-company">Tunisian Cloud</span>
+              </div>
+              <h3>Web Development Intern</h3>
+              <p>
+                Developed web features and strengthened core frontend development skills through practical work
+                with standard web technologies and responsive interface components.
+              </p>
+              <h4>Technologies Used</h4>
+              <div class="tag-list">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-soft" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal reveal-left">
+          <p class="eyebrow">Let's connect</p>
+          <h2>Contact</h2>
+          <p>
+            I am currently looking for a 6-month Software Engineering internship starting February 2027 .
+            I am especially interested in full-stack engineering , AI automations, cloud-native platforms and large-scale software challenges.
+          </p>
+
+          <div class="contact-links">
+            <!-- TODO: replace these 3 contact links and labels with your real information -->
+            <a href="mailto:hibachaari2004@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              <span><strong>Email</strong>hibachaari2004@gmail.com</span>
+            </a>
+            <a href="https://github.com/Hiba0301" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-github"></i>
+              <span><strong>GitHub</strong>github.com/Hiba0301</span>
+            </a>
+            <a href="https://www.linkedin.com/in/hiba-chaari-793701321/" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span><strong>LinkedIn</strong>linkedin.com/in/hiba-chaari-793701321</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-card reveal reveal-right">
+          <!-- TODO: replace YOUR_FORM_ID with your Formspree form ID to activate the form -->
+          <form id="contact-form" action="https://formsubmit.co/ajax/hibachaari2004@gmail.com" method="POST" novalidate>
+            <!-- FormSubmit config: delivers submissions to hibachaari2004@gmail.com. -->
+            <input type="hidden" name="_subject" value="New message from your portfolio contact form" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <!-- Honeypot: bots fill this; real users can't see it -->
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none" />
+
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@email.com" required />
+            </div>
+
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell me about the opportunity or project..." required></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-full" type="submit">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Hiba Chaari. All rights reserved.</p>
+      <a href="#top">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <div class="image-modal" id="image-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project image preview">
+    <button class="modal-close" id="modal-close" type="button" aria-label="Close image preview">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <img id="modal-image" src="" alt="" />
+  </div>
+
+  <!-- PRESENTATION SLIDES VIEWER -->
+  <div class="slides-modal" id="slides-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project presentation">
+    <button class="modal-close" id="slides-close" type="button" aria-label="Close presentation">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <button class="slides-nav slides-prev" id="slides-prev" type="button" aria-label="Previous slide">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <figure class="slides-stage">
+      <img id="slides-image" src="" alt="Presentation slide" />
+      <figcaption class="slides-counter">
+        <span id="slides-current">1</span> / <span id="slides-total">16</span>
+      </figcaption>
+    </figure>
+    <button class="slides-nav slides-next" id="slides-next" type="button" aria-label="Next slide">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
+
+  <script src="assets/js/script.js?v=15"></script>
+</body>
+</html>
